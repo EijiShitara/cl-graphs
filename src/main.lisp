@@ -3,3 +3,5 @@
 (defclass node () ())
 
 (defclass edge () ())
+
+(defmacro defgraph (nodes edges))
